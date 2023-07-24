@@ -10,7 +10,7 @@
 
                         <div class="title">
                             <h6><span>{{ __('Terms and Conditions') }}</span></h6>
-                            <p>{{ __('Lorem ipsum dolor sit amet') }}</p>
+                            {{-- <p>{{ __('Lorem ipsum dolor sit amet') }}</p> --}}
                         </div>
 
                     </div> <!-- END SECTION TITLE -->

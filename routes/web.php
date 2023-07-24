@@ -82,6 +82,8 @@ Route::post('/contact', [HomeController::class, 'contact'])->name('contact');
 // TERMS & CONDITION ROUTES
 Route::get('/terms-and-conditions', [HomeController::class, 'termsAndConditions'])->name('terms');
 Route::get('/privacy-policy', [HomeController::class, 'privacyPolicy'])->name('privacy');
+Route::get('/refund-policy', [HomeController::class, 'refundPolicy'])->name('refund');
+
 
 // LOCALE ROUTES
 Route::get('/locale/{lang}', [LocaleController::class, 'language'])->name('locale');
