@@ -140,6 +140,21 @@ class HomeController extends Controller
         return view('privacy-policy', compact('information', 'pages'));
     }
 
+    public function refundPolicy() 
+    {
+        $pages_rows = ['privacy'];
+        $information = $this->metadataInformation();
+        $pages = [];
+        $page = Page::all();
+
+        foreach ($page as $row) {
+            if (in_array($row['name'], $pages_rows)) {
+                $pages[$row['name']] = $row['value'];
+            }
+        }
+        return view('refund-policy', compact('information', 'pages'));
+    }
+
 
     /**
      * Frontend plan prices

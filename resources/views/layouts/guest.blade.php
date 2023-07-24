@@ -226,6 +226,7 @@
 										<ul class="list-unstyled">
 											<li><a href="{{ route('terms') }}">Terms & Conditions</a></li>
 											<li><a href="{{ route('privacy') }}">Privacy Policy</a></li>							
+											<li><a href="{{ route('refund') }}">Refund Policy</a></li>							
 										</ul>		         
 
 									</div> <!-- COMPANY LINKS -->
@@ -234,11 +235,14 @@
 									<!-- CONNECTION & NEWS LINKS -->
 									<div class="col-md-3 col-sm-12 footer-connect pr-0">
 																
-										<h5>{{ __('Social Media') }}</h5>
+										<h5>{{ __('Contact Us') }}</h5>
 
-										<h6>Follow up on social media to find out the latest updates.</h6>
+										<h6># 20 Wenlock Road London
+											N1 7GU England</h6>
+										<h6> <span style="font-weight: 900" >Email</span> admin@evergenius.co.uk</h6>
 
-										<ul id="footer-icons" class="list-inline">
+										<img src="{{asset("img/powered-by-stripe.png")}}" alt="powers by stripe">
+										{{-- <ul id="footer-icons" class="list-inline">
 											@if (config('frontend.social_linkedin'))
 												<a href="{{ config('frontend.social_linkedin') }}" target="_blank"><li class="list-inline-item"><i class="footer-icon fa-brands fa-linkedin"></i></li></a>
 											@endif
@@ -252,7 +256,7 @@
 												<a href="{{ config('frontend.social_facebook') }}" target="_blank"><li class="list-inline-item"><i class="footer-icon fa-brands fa-facebook"></i></li></a>
 											@endif											
 											
-										</ul>
+										</ul> --}}
 
 										<h5 class="mt-6 mb-4">{{ __('Get Started For Free') }}</h5>
 

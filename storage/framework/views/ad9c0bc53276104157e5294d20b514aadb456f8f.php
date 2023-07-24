@@ -158,7 +158,7 @@
 								
 								<img src="<?php echo e(URL::asset('img/brand/logo-white.png')); ?>" alt="Brand Logo">
 
-								<p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut culpa maiores maxime illo nostrum aut totam, porro dolore minima</p>		
+								<p class="mb-0">At #, our platform empowers you to effortlessly synthesize text in any language from multiple providers, eliminating the need for complex integration worries. With us, you can stay laser-focused on your business model while we handle all the technical intricacies of the system, ensuring a seamless experience.</p>		
 
 								<div class="dropdown header-locale" id="frontend-local">
 									<a class="nav-link icon" data-toggle="dropdown">
@@ -226,6 +226,7 @@
 										<ul class="list-unstyled">
 											<li><a href="<?php echo e(route('terms')); ?>">Terms & Conditions</a></li>
 											<li><a href="<?php echo e(route('privacy')); ?>">Privacy Policy</a></li>							
+											<li><a href="<?php echo e(route('refund')); ?>">Refund Policy</a></li>							
 										</ul>		         
 
 									</div> <!-- COMPANY LINKS -->
@@ -234,25 +235,14 @@
 									<!-- CONNECTION & NEWS LINKS -->
 									<div class="col-md-3 col-sm-12 footer-connect pr-0">
 																
-										<h5><?php echo e(__('Social Media')); ?></h5>
+										<h5><?php echo e(__('Contact Us')); ?></h5>
 
-										<h6>Follow up on social media to find out the latest updates.</h6>
+										<h6># 20 Wenlock Road London
+											N1 7GU England</h6>
+										<h6> <span style="font-weight: 900" >Email</span> admin@evergenius.co.uk</h6>
 
-										<ul id="footer-icons" class="list-inline">
-											<?php if(config('frontend.social_linkedin')): ?>
-												<a href="<?php echo e(config('frontend.social_linkedin')); ?>" target="_blank"><li class="list-inline-item"><i class="footer-icon fa-brands fa-linkedin"></i></li></a>
-											<?php endif; ?>
-											<?php if(config('frontend.social_twitter')): ?>
-												<a href="<?php echo e(config('frontend.social_twitter')); ?>" target="_blank"><li class="list-inline-item"><i class="footer-icon fa-brands fa-twitter"></i></li></a>
-											<?php endif; ?>
-											<?php if(config('frontend.social_instagram')): ?>
-												<a href="<?php echo e(config('frontend.social_instagram')); ?>" target="_blank"><li class="list-inline-item"><i class="footer-icon fa-brands fa-instagram"></i></li></a>
-											<?php endif; ?>
-											<?php if(config('frontend.social_facebook')): ?>
-												<a href="<?php echo e(config('frontend.social_facebook')); ?>" target="_blank"><li class="list-inline-item"><i class="footer-icon fa-brands fa-facebook"></i></li></a>
-											<?php endif; ?>											
-											
-										</ul>
+										<img src="<?php echo e(asset("img/powered-by-stripe.png")); ?>" alt="powers by stripe">
+										
 
 										<h5 class="mt-6 mb-4"><?php echo e(__('Get Started For Free')); ?></h5>
 
