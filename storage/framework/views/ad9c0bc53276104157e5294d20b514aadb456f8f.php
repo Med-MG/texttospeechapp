@@ -158,7 +158,7 @@
 								
 								<img src="<?php echo e(URL::asset('img/brand/logo-white.png')); ?>" alt="Brand Logo">
 
-								<p class="mb-0">At #, our platform empowers you to effortlessly synthesize text in any language from multiple providers, eliminating the need for complex integration worries. With us, you can stay laser-focused on your business model while we handle all the technical intricacies of the system, ensuring a seamless experience.</p>		
+								<p class="mb-0">At <?php echo e(config('app.name')); ?>, our platform empowers you to effortlessly synthesize text in any language from multiple providers, eliminating the need for complex integration worries. With us, you can stay laser-focused on your business model while we handle all the technical intricacies of the system, ensuring a seamless experience.</p>		
 
 								<div class="dropdown header-locale" id="frontend-local">
 									<a class="nav-link icon" data-toggle="dropdown">

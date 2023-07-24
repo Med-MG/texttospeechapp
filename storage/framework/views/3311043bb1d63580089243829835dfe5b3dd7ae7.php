@@ -1,3 +1,5 @@
+
+
 <?php $__env->startSection('css'); ?>
 	<link href="<?php echo e(URL::asset('plugins/swiper/swiper.min.css')); ?>" rel="stylesheet" />
 	<link href="<?php echo e(URL::asset('css/slick.css')); ?>" rel="stylesheet" />
@@ -226,7 +228,7 @@
                                         
                                             <h5><?php echo e(__('Over +840 Voices')); ?></h5>
                                             
-                                            <p>Lorem ipsum dolor sit amet est consectetur adipisicing elit. Ut aspernatur mollitia aliquid consectetur illo sapiente nemo obcaecati unde.</p>
+                                            <p>With a wide range of voices to choose from, including male, female, and various age groups, the TTS service provides great flexibility in tailoring the voice output to suit specific needs and preferences. The voices are carefully crafted using state-of-the-art neural network models, ensuring realistic intonation, pronunciation, and natural-sounding expressions.</p>
 
                                         </div>                         
 
@@ -247,7 +249,7 @@
                                         
                                             <h5><?php echo e(__('Full set of SSML Features')); ?></h5>
                                             
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut aspernatur mollitia aliquid consectetur illo sapiente nemo obcaecati unde.</p>
+                                            <p>A Full set of SSML (Speech Synthesis Markup Language) Features for Text-to-Speech software as a service provides a robust and versatile toolkit for controlling and enhancing the speech synthesis process. SSML is an XML-based markup language that allows users to fine-tune the generated speech, adding expressiveness and customization to the output.</p>
 
                                         </div>
 
@@ -268,7 +270,7 @@
                                         
                                             <h5><?php echo e(__('Various Audio Formats')); ?></h5>
                                             
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut aspernatur mollitia aliquid consectetur illo sapiente nemo obcaecati unde.</p>
+                                            <p>A EVER GENIOUS (TTS)  offering support for Various Audio Formats provides users with the flexibility to choose from a range of audio file types for the synthesized speech output. This capability allows users to select the most suitable audio format based on their specific requirements and the intended application of the speech synthesis.</p>
 
                                         </div>
 
@@ -291,7 +293,7 @@
                                         
                                             <h5><?php echo e(__('Over +135 Languages & Dialects')); ?></h5>
                                             
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut aspernatur mollitia aliquid consectetur illo sapiente nemo obcaecati unde.</p>
+                                            <p>Over +135 Languages & Dialects for TTS software as a service is a comprehensive and inclusive platform that offers a wide selection of more than 135 languages and dialects for converting written text into natural-sounding speech. This cloud-based service is designed to cater to a global audience, providing support for a diverse range of languages and regional accents.</p>
 
                                         </div>
 
@@ -313,7 +315,7 @@
                                         
                                             <h5><?php echo e(__('Download & Share Results Easily')); ?></h5>
                                             
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut aspernatur mollitia aliquid consectetur illo sapiente nemo obcaecati unde.</p>
+                                            <p>The Download & Share Results Easily feature in a EVER GENIUS offers users a simple and convenient way to access and distribute the synthesized speech output. This feature allows users to download the generated audio files in various formats, making it easy to integrate the speech into their applications, projects, or content.</p>
 
                                         </div>                                
 
@@ -335,7 +337,7 @@
                                         
                                             <h5><?php echo e(__('Standard & Neural Voices')); ?></h5>
                                             
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut aspernatur mollitia aliquid consectetur illo sapiente nemo obcaecati unde.</p>
+                                            <p>The EVER GENIUS offers two main types of voices: Standard Voices and Neural Voices, providing users with a choice between different speech synthesis technologies to suit their specific needs.</p>
 
                                         </div>
 
@@ -351,7 +353,7 @@
                                         <h4><?php echo e(__('Accurately convert text to speech powered by leading')); ?><br> <span>Cloud <span class="text-primary">AI</span> Technologies</span></h4>
                                     </div>
                                     
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quibusdam? Illum ad eius, molestiae placeat dicta quae, ab nihil omnis obcaecati reiciendis recusandae, voluptatem eos molestias aliquam saepe tenetur optio? Consectetur adipisicing elit. Ut aspernatur mollitia aliquid consectetur illo sapiente nemo obcaecati.</p>
+                                    <p>EVERGENIUS offers numerous benefits that cater to developers, businesses, and individuals looking to integrate speech-related capabilities into their applications, products, or services.</p>
                                 </div>
                                 
                             </div>
@@ -723,7 +725,7 @@
 
                 <div class="row text-center">
                     <div class="col-md-12">
-                        <h4>Why Cloud Polly?</h4>
+                        <h4>Why <?php echo e(config('app.name')); ?>?</h4>
                     </div>                    
                 </div>
 
@@ -735,19 +737,19 @@
                     <div class="col-md-6 col-sm-12" id="banner-text" data-aos="fade-left" data-aos-delay="500" data-aos-once="true" data-aos-duration="1000">
                         <div class="banner-text-inner">
                             <h5><?php echo e(__('Spend less time to synthesize your text into audio files')); ?></h5>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi ab eaque a ex voluptate fugit, dolorum nisi veritatis quisquam perferendis. Iure consequatur porro omnis quo culpa cum vel dicta recusandae!</p>
+                            <p>Empower your productivity with our cutting-edge text-to-audio synthesis technology! Spend less time converting your text into audio files and enjoy effortless efficiency. Our innovative solution streamlines the process, ensuring quick and seamless conversion, allowing you to focus on what matters most. Experience the ease of transforming your written content into captivating audio with just a few clicks. Save time, increase productivity, and let our advanced system handle the rest!</p>
                         </div>
                         <div class="banner-text-inner">
                             <h5><?php echo e(__('Synthesize text in more than 135 languages and dialects')); ?></h5>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi ab eaque a ex voluptate fugit, dolorum nisi veritatis quisquam perferendis. Iure consequatur porro omnis quo culpa cum vel dicta recusandae!</p>
+                            <p>Unlock 135+ languages and dialects for text synthesis. Reach a global audience with natural-sounding audio. Embrace multilingual accessibility today.</p>
                         </div>
                         <div class="banner-text-inner">
                             <h5><?php echo e(__('Supports various audio formats with different frequencies')); ?></h5>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi ab eaque a ex voluptate fugit, dolorum nisi veritatis quisquam perferendis. Iure consequatur porro omnis quo culpa cum vel dicta recusandae!</p>
+                            <p>Experience the flexibility of our cutting-edge audio tool, supporting a wide array of formats with varying frequencies. Whether you need crystal-clear high-quality audio or optimized files for specific devices, we've got you covered. Our advanced technology ensures seamless compatibility, allowing you to enjoy the perfect audio output for your needs. Embrace the freedom to choose and elevate your audio experience with ease.</p>
                         </div>
                         <div class="banner-text-inner">
                             <h5><?php echo e(__('Powerful Sound Studio to merge and enhance audio results')); ?></h5>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi ab eaque a ex voluptate fugit, dolorum nisi veritatis quisquam perferendis. Iure consequatur porro omnis quo culpa cum vel dicta recusandae!</p>
+                            <p>Discover the ultimate audio toolkit in our Powerful Sound Studio, designed to effortlessly merge and enhance your audio results. Unleash your creativity as you seamlessly blend multiple audio files and apply professional-grade effects. Elevate your audio projects to perfection with this cutting-edge studio, providing you with unparalleled control and precision for outstanding results.</p>
                         </div>
                     </div>
                 </div>

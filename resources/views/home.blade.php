@@ -724,7 +724,7 @@
 
                 <div class="row text-center">
                     <div class="col-md-12">
-                        <h4>Why Cloud Polly?</h4>
+                        <h4>Why {{ config('app.name') }}?</h4>
                     </div>                    
                 </div>
 
@@ -736,19 +736,19 @@
                     <div class="col-md-6 col-sm-12" id="banner-text" data-aos="fade-left" data-aos-delay="500" data-aos-once="true" data-aos-duration="1000">
                         <div class="banner-text-inner">
                             <h5>{{ __('Spend less time to synthesize your text into audio files') }}</h5>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi ab eaque a ex voluptate fugit, dolorum nisi veritatis quisquam perferendis. Iure consequatur porro omnis quo culpa cum vel dicta recusandae!</p>
+                            <p>Empower your productivity with our cutting-edge text-to-audio synthesis technology! Spend less time converting your text into audio files and enjoy effortless efficiency. Our innovative solution streamlines the process, ensuring quick and seamless conversion, allowing you to focus on what matters most. Experience the ease of transforming your written content into captivating audio with just a few clicks. Save time, increase productivity, and let our advanced system handle the rest!</p>
                         </div>
                         <div class="banner-text-inner">
                             <h5>{{ __('Synthesize text in more than 135 languages and dialects') }}</h5>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi ab eaque a ex voluptate fugit, dolorum nisi veritatis quisquam perferendis. Iure consequatur porro omnis quo culpa cum vel dicta recusandae!</p>
+                            <p>Unlock 135+ languages and dialects for text synthesis. Reach a global audience with natural-sounding audio. Embrace multilingual accessibility today.</p>
                         </div>
                         <div class="banner-text-inner">
                             <h5>{{ __('Supports various audio formats with different frequencies') }}</h5>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi ab eaque a ex voluptate fugit, dolorum nisi veritatis quisquam perferendis. Iure consequatur porro omnis quo culpa cum vel dicta recusandae!</p>
+                            <p>Experience the flexibility of our cutting-edge audio tool, supporting a wide array of formats with varying frequencies. Whether you need crystal-clear high-quality audio or optimized files for specific devices, we've got you covered. Our advanced technology ensures seamless compatibility, allowing you to enjoy the perfect audio output for your needs. Embrace the freedom to choose and elevate your audio experience with ease.</p>
                         </div>
                         <div class="banner-text-inner">
                             <h5>{{ __('Powerful Sound Studio to merge and enhance audio results') }}</h5>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi ab eaque a ex voluptate fugit, dolorum nisi veritatis quisquam perferendis. Iure consequatur porro omnis quo culpa cum vel dicta recusandae!</p>
+                            <p>Discover the ultimate audio toolkit in our Powerful Sound Studio, designed to effortlessly merge and enhance your audio results. Unleash your creativity as you seamlessly blend multiple audio files and apply professional-grade effects. Elevate your audio projects to perfection with this cutting-edge studio, providing you with unparalleled control and precision for outstanding results.</p>
                         </div>
                     </div>
                 </div>
