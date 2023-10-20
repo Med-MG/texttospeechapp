@@ -82,7 +82,7 @@
                                                                     </ul>
                                                                 </div>	
                                                                 <div class="text-center action-button mt-5 mb-2">
-                                                                    <a href="{{ route('register') }}" class="btn btn-primary">{{ __('Subscribe Now') }}</a>
+                                                                    <a href="{{ route('contact') }}" class="btn btn-primary">{{ __('Subscribe Now') }}</a>
                                                                 </div>						
                                                             </div>	
                                                         </div>							

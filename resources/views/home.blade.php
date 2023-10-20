@@ -269,7 +269,7 @@
                                         
                                             <h5>{{ __('Various Audio Formats') }}</h5>
                                             
-                                            <p>A EVER GENIOUS (TTS)  offering support for Various Audio Formats provides users with the flexibility to choose from a range of audio file types for the synthesized speech output. This capability allows users to select the most suitable audio format based on their specific requirements and the intended application of the speech synthesis.</p>
+                                            <p>A {{ config('app.name') }} (TTS)  offering support for Various Audio Formats provides users with the flexibility to choose from a range of audio file types for the synthesized speech output. This capability allows users to select the most suitable audio format based on their specific requirements and the intended application of the speech synthesis.</p>
 
                                         </div>
 
@@ -314,7 +314,7 @@
                                         
                                             <h5>{{ __('Download & Share Results Easily') }}</h5>
                                             
-                                            <p>The Download & Share Results Easily feature in a EVER GENIUS offers users a simple and convenient way to access and distribute the synthesized speech output. This feature allows users to download the generated audio files in various formats, making it easy to integrate the speech into their applications, projects, or content.</p>
+                                            <p>The Download & Share Results Easily feature in a {{ config('app.name') }} offers users a simple and convenient way to access and distribute the synthesized speech output. This feature allows users to download the generated audio files in various formats, making it easy to integrate the speech into their applications, projects, or content.</p>
 
                                         </div>                                
 
@@ -336,7 +336,7 @@
                                         
                                             <h5>{{ __('Standard & Neural Voices') }}</h5>
                                             
-                                            <p>The EVER GENIUS offers two main types of voices: Standard Voices and Neural Voices, providing users with a choice between different speech synthesis technologies to suit their specific needs.</p>
+                                            <p>The {{ config('app.name') }}offers two main types of voices: Standard Voices and Neural Voices, providing users with a choice between different speech synthesis technologies to suit their specific needs.</p>
 
                                         </div>
 
@@ -352,7 +352,7 @@
                                         <h4>{{ __('Accurately convert text to speech powered by leading') }}<br> <span>Cloud <span class="text-primary">AI</span> Technologies</span></h4>
                                     </div>
                                     
-                                    <p>EVERGENIUS offers numerous benefits that cater to developers, businesses, and individuals looking to integrate speech-related capabilities into their applications, products, or services.</p>
+                                    <p>{{ config('app.name') }} offers numerous benefits that cater to developers, businesses, and individuals looking to integrate speech-related capabilities into their applications, products, or services.</p>
                                 </div>
                                 
                             </div>
